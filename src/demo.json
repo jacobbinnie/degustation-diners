@@ -6,9 +6,17 @@
             "courses": {
                 "Salmon Risotto": {
                     "imageUrl": "https://images.unsplash.com/photo-1484325881845-65073528922e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlc3RhdXJhbnQlMjBtZWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60",
-                    "type": "main"
+                    "type": "poster"
                 },
                 "Medium Rare Lamb": {
+                    "imageUrl": "https://images.unsplash.com/photo-1504973960431-1c467e159aa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFtYiUyMGRpbm5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1100&q=60",
+                    "type": "main"
+                },
+                "Meal 3": {
+                    "imageUrl": "https://images.unsplash.com/photo-1504973960431-1c467e159aa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFtYiUyMGRpbm5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1100&q=60",
+                    "type": "main"
+                },
+                "Meal 4": {
                     "imageUrl": "https://images.unsplash.com/photo-1504973960431-1c467e159aa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFtYiUyMGRpbm5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1100&q=60",
                     "type": "main"
                 }

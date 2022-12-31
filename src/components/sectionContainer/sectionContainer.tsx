@@ -11,7 +11,14 @@ export const SectionContainer: FC<iSectionContainer> = () => {
 
   const renderSections = Object.keys(courses).map(function (key, index) {
     return (
-      <div className="p-5 snap-start box-border" key={key}>
+      <div
+        className={`${
+          coursesArray[index].type !== 'poster'
+            ? `snap-center pt-20 pl-20 pr-10`
+            : `snap-start pl-20`
+        } box-border`}
+        key={key}
+      >
         <Section
           key={key}
           title={key}
