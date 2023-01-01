@@ -14,7 +14,7 @@ export const SectionContainer: FC<iSectionContainer> = () => {
       <div
         className={`${
           coursesArray[index].type !== 'poster'
-            ? `snap-center pt-20 pl-20 pr-10`
+            ? `snap-center pt-20 lg:pl-20 lg:pr-10 md:pl-10 md:pr-5 sm:pl-5 sm:pr-0`
             : `snap-start pl-20`
         } box-border`}
         key={key}
