@@ -8,7 +8,7 @@ interface iSection {
   type?: string
 }
 
-export const Section: FC<iSection> = ({ imageUrl, type }) => {
+export const Section: FC<iSection> = ({ type, imageUrl }) => {
   return (
     // eslint-disable-next-line max-len
     <div
