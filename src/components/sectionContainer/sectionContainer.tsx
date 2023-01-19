@@ -9,6 +9,8 @@ export const SectionContainer: FC<iSectionContainer> = () => {
   const courses = data.experiences.Terra.courses
   const coursesArray = Object.values(courses)
 
+  console.log('Test')
+
   const renderSections = Object.keys(courses).map(function (key, index) {
     return (
       <div
